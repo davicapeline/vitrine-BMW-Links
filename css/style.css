@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: rgb(17, 13, 13);
+    background-color: #1c2333;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -22,11 +22,7 @@ header {
 
 a {
     text-decoration: none;
-    color: rgba(199, 203, 255, 0.671);
-}
-
-a:hover {
-    color: rgb(226, 220, 241);
+    color: rgba(199, 203, 255, 0.671);                  
 }
 
 #logo {
@@ -37,21 +33,7 @@ a:hover {
 }
 
 #logo img {
-    height: 50px;
-}
-
-#opcoes {
-    color: rgb(219, 0, 0);
-    display: flex;
-    gap: 30px;
-    font-weight: bold;
-}
-
-#opcao-inicio a{
-    color: rgb(68, 93, 100);
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 10px;
+    height: 30px;
 }
 
 .letras_pequenas {
@@ -59,11 +41,11 @@ a:hover {
     font-weight: bold;
     text-transform: uppercase;
     font-size: x-small;
-    color: rgb(163, 133, 145);
+    color: rgba(145, 127, 127, 0.806);
 }
 
 #introducao {
-    background-color: rgba(0, 153, 255, 0.651)  ;
+    background-color:#0b1b50;
     padding-left: 30px;
     padding-right: 30px;
     display: flex;
@@ -94,12 +76,12 @@ a:hover {
 }
 
 #ir-para-destaques a:hover {
-    color: rgb(163, 133, 145);
+    color: rgb(252, 252, 252);
 }
 
 #introducao img {
-    width: 450px;
-    height: 450px;
+    width: 300px;
+    height: 300px;
 }
 
 #destaques {
@@ -120,10 +102,10 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgb(223, 192, 196, 0.5);
+    background-color:#1c2333   ;
     border-radius: 20px;
     border-style: solid;
-    border-color: rgb(163, 133, 145, 0.5);
+    border-color: #022947;
     padding: 20px;
     text-align: center;
 }
@@ -135,7 +117,7 @@ a:hover {
 
 #ir-para-motos {
     text-align: center;
-    background-color: rgba(170, 212, 236, 0.7);
+    background-color: #0f2d45;
     padding:20px;
 }
 
@@ -159,7 +141,7 @@ a:hover {
 footer {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(98, 125, 141, 0.7);
+    background-color: #1c2333;
     color: white;
     align-items: center;
     line-height: 1.5;
@@ -173,4 +155,48 @@ footer {
 
 .link {
     font-weight: bold;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+#botoes {
+    border: 2px solid #000000
+}
+
+h3 {
+    color: #fffcfc;
+}
+
+#botoes-introducao {
+    display:flex;
+    border-radius: 0%;
+    margin-top: 20px;
+    gap: 16px;
+}
+
+#botao-motos {
+    border: none;
+    background-color: #0d0d60;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#botao-curiosidades {
+    border: none;
+    background-color: #0d0d60;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#botoes a {
+     border: none;
+    background-color: #000000;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    gap:px;
 }
