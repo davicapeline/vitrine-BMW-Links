@@ -1,24 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <meta charset="UTF-8" />
-        <title>Essa é a tela de curiosidades</title>
-        <link rel="stylesheet" href="../css/curiosidades.css" />
+        <meta charset="UTF-8"/>
+        <title>Curiosidades</title>
+        <link rel="stylesheet" href="../css/curiosidades.css"/>
     </head>
     <body>
         <header>
-            <h1>Essa é a tela de curiosidades</h1>
-            <a href="/">Voltar para o início</a>
+            <section id="logo">
+                <h1>Liga dos Carros</h1>
+            </section>
+            <section id="menu">
+                <a href="../index.html">Início</a>
+                <a href="../pages/carros.html">Carros</a>
+                <a href="../pages/curiosidades.html">Curiosidades</a>
+            </section>
         </header>
         <main>
-            <section>
+            <section id="introducao">
                 <article>
-                    <p>Essa é a tela de curiosidades</p>
+                    <span>Além da velocidade!</span>
+                    <h2>Segredos dos <span>CARROS</span></h2>
+                    <p>Do modelo mais simples, até o ultimo lançamento</p>
                 </article>
+            </section>
+
+            <section id="curiosidades">
+                    <section id="cards">
+                            <article id="cardprincipal">
+                                    <img src="../assets/img/logo BMW curiosidades.png" alt="">
+                                    <p>Arquivo dos carros</p>
+                            </article>
+                            <section id="texto">
+                                <span>Você Sabia?</span>
+                                <h3>Três curiosidades sobre a BMW</h3>
+                                <article class="cardsecundario">
+                                    <h4><span>01</span>A BMW começou com aviões</h4>
+                                    <p>Antes de fabricar carros, a BMW produzia motores para aeronaves na Alemanha, no início do século XX..</p>
+                                </article>
+                                <article class="cardsecundario">
+                                    <h4><span>02</span>BMW já fabricou carros para as Olimpíadas </h4>
+                                    <p>A BMW desenvolveu o BMW 3.0 CSL, um modelo de competição que ficou famoso por seu desempenho e design!</p>
+                                </article>
+                                <article class="cardsecundario">
+                                    <h4><span>03</span>O símbolo da BMW não é uma hélice de avião.</h4>
+                                    <p>Muita gente acredita que o logotipo representa uma hélice, por causa da história da BMW na fabricação de motores de aviões. Porém, o desenho azul e branco está ligado às cores da Baviera, região da Alemanha onde a empresa nasceu..</p>
+                                </article>
+                            </section>
+                    </section>
             </section>
         </main>
         <footer>
-            <small>Essa é a tela de curiosidades</small>
+            <section id="rodape">
+                <article id="marca">
+                    <small>Minisite desenvolvido para prática HTML e CSS.</small>
+                </article>
+                <article id="menuinferiior">
+                     <a href="https://www.bmw.com.br/pt/bmw-financial-services.html" target="_blank" rel="noreferrer">Ir para o site oficial da BMW</a>
+                <a href="../assets/files/teste.txt" download>Clique aqui para baixar</a>
+                </article>
+            </section>
         </footer>
     </body>
 </html>
